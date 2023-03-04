@@ -48,9 +48,9 @@ def main():
     i=0
     while True:
         data=dict()
-        data['temperature']=random.randint(25,30)
-        data['humidity']=random.randint(50,100)
-        data['pressure']=random.randint(900,1100)
+        data['temperature']=sense.temperature
+        data['humidity']=sense.humidity
+        data['pressure']=sense.pressure
         data['when']=datetime.datetime.now()
         json_data=json.dumps(data,default=str)
 
