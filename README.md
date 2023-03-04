@@ -1,4 +1,4 @@
-# console_iothub
-Python client for Azure IoT Hub. It simulates measurements from a sensor including temperature, humidity and pressure.
+# sensehat_iothub
+Python client for Azure IoT Hub. It uses SenseHat Emulator for temperature, humidity and pressure measurements.
 
 
