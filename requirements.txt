@@ -1,0 +1,4 @@
+azure-iot-device==2.12.0
+sense-emu==1.1
+
+
